@@ -8,7 +8,7 @@ import { map, take, tap } from 'rxjs/operators';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit, OnDestroy {
-  title = "folks , Let's lear Tap operator!";
+  title = "folks , Let's learn Tap operator!";
   nums$ = of(1, 2, 3, 4, 5, 6, 7, 8);
   transformedObservables: Observable<string>;
   subscription: Subscription;
